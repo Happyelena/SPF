@@ -1,5 +1,0 @@
-D:\Project\EBook\SPF\bin\Release\SPF.dll
-D:\Project\EBook\SPF\bin\Release\SPF.pdb
-D:\Project\EBook\SPF\obj\Release\ResolveAssemblyReference.cache
-D:\Project\EBook\SPF\obj\Release\SPF.dll
-D:\Project\EBook\SPF\obj\Release\SPF.pdb
