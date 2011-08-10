@@ -1,0 +1,20 @@
+D:\Project\SPF\SPF\bin\Debug\SPF.dll
+D:\Project\SPF\SPF\bin\Debug\SPF.pdb
+D:\Project\SPF\SPF\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\SPF\SPF\obj\Debug\SPF.dll
+D:\Project\SPF\SPF\obj\Debug\SPF.pdb
+E:\Work Place\ASP.NET\SPF\SPFV3\SPF\obj\Debug\ResolveAssemblyReference.cache
+E:\Work Place\ASP.NET\SPF\SPFV3\SPF\bin\Debug\SPF.dll
+E:\Work Place\ASP.NET\SPF\SPFV3\SPF\bin\Debug\SPF.pdb
+E:\Work Place\ASP.NET\SPF\SPFV3\SPF\obj\Debug\SPF.dll
+E:\Work Place\ASP.NET\SPF\SPFV3\SPF\obj\Debug\SPF.pdb
+D:\Project\EBook\SPF\bin\Debug\SPF.dll
+D:\Project\EBook\SPF\bin\Debug\SPF.pdb
+D:\Project\EBook\SPF\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\EBook\SPF\obj\Debug\SPF.dll
+D:\Project\EBook\SPF\obj\Debug\SPF.pdb
+D:\Project\SPF\Main\SPF\bin\Debug\SPF.dll
+D:\Project\SPF\Main\SPF\bin\Debug\SPF.pdb
+D:\Project\SPF\Main\SPF\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\SPF\Main\SPF\obj\Debug\SPF.dll
+D:\Project\SPF\Main\SPF\obj\Debug\SPF.pdb

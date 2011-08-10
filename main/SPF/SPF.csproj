@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8634BE6F-1B37-4FA0-A260-F32632F889D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SPF</RootNamespace>
+    <AssemblyName>SPF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DataCache\SqlDataCache.cs" />
+    <Compile Include="Data\DataCache\WebDataCache.cs" />
+    <Compile Include="Data\SqlContentExecuteProcessor.cs" />
+    <Compile Include="Data\SqlContentLoadProccessor.cs" />
+    <Compile Include="Data\SqlContentTransactionProcessor.cs" />
+    <Compile Include="Global\IConfiguratonAdapter.cs" />
+    <Compile Include="Configuration\SqlSourceConfigurationAdapter.cs" />
+    <Compile Include="Configuration\SqlSourceConfiguration.cs" />
+    <Compile Include="Configuration\WebSourceConfigurationAdapter.cs" />
+    <Compile Include="Configuration\WebSourceConfiguration.cs" />
+    <Compile Include="Global\IContentExecuteProccessor.cs" />
+    <Compile Include="Global\IProccessor.cs" />
+    <Compile Include="Data\WebContentLoadProccessor.cs" />
+    <Compile Include="Data\WebContentExecuteProccessor.cs" />
+    <Compile Include="Sql\SqlObjectMappingProccessor.cs" />
+    <Compile Include="Web\JSONObject.cs" />
+    <Compile Include="Data\DataCache\DataCache.cs" />
+    <Compile Include="Global\ICacheable.cs" />
+    <Compile Include="Global\ICacheUpdateCallBack.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Global\IContentLoadProccessor.cs" />
+    <Compile Include="Sql\SqlSourceContent.cs" />
+    <Compile Include="Global\ITransformProccessor.cs" />
+    <Compile Include="Global\ISourceContent.cs" />
+    <Compile Include="Web\JsonWebSourceContent.cs" />
+    <Compile Include="Web\WebSourceRequest.cs" />
+    <Compile Include="Web\WebSourceContent.cs" />
+    <Compile Include="Web\XmlWebSourceContent.cs" />
+    <Compile Include="Web\XsltTransformProccessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConfigSchema\Config_V4.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
